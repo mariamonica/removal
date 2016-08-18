@@ -1,6 +1,5 @@
 body {
-    background-color: antiquewhite;
-    background-image: url('img/');
+    background-image: url('img/bak.jpg');
     background-attachment: fixed;
     /*background-color: gray;*/
     color: black;
@@ -37,12 +36,12 @@ a {
 }
 
 a:link, a:visited {
-    color: black;
+    color: white;
 }
 
 a:hover, a:active {
-    background-color: #C69C6D;
-    color: #fff;
+    background-color: gray;
+    color: yellow;
 }
 
 .body {
@@ -59,7 +58,7 @@ a:hover, a:active {
 }
 
 .mainHeader nav {
-    background-color: red;
+
     height: 40px;
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -79,15 +78,15 @@ a:hover, a:active {
 }
 
 .mainHeader nav a:link, .mainHeader nav a:visited {
-    color: #fff;
+    color: yellow;
     display: inline-block;
     padding: 10px 25px;
     height: 20px;
 }
 
 .mainHeader nav a:hover, .mainHeader nav a:active,
-.mainHeader nav .active a:link, .mainHeader nav .active a.visited {
-    background-color:  #C69C6D;
+.mainHeader nav .active  .mainHeader nav .active a.visited {
+    background-color:  gray;
     text-shadow: none;
 }
 
@@ -110,7 +109,7 @@ a:hover, a:active {
 }
 
 .topcontent {
-    background-color: #fff;
+    color: white;
     border-radius: 5px;
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
